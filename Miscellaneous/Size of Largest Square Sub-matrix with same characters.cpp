@@ -28,13 +28,13 @@ int main() {
                     //cout << i << " " << j << endl;
                     ans = max(ans, num);
                     //cout << i << " " << j  << " " << num << " ";
-                    for (int k=i; k + num < mat.size(); k++) {
-                        for (int l=j; l + num < mat[0].size(); l++) {
-                            //cout << k << " " << l  << " " << mat[k][l] << " ";
-                        }
-                        cout << endl;
-                    }
-                    cout << endl;
+                    //for (int k=i; k + num < mat.size(); k++) {
+                    //    for (int l=j; l + num < mat[0].size(); l++) {
+                    //        //cout << k << " " << l  << " " << mat[k][l] << " ";
+                    //    }
+                    //    cout << endl;
+                    //}
+                    //cout << endl;
                     if (ans == min(r, c)) {
                         cout << ans;
                         return 0;
